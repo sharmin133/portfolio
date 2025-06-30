@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="w-full fixed top-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className='flex items-center justify-center'>
-            <img className='w-16 h-16 ' src="/src/assets/picture/logo1.jpg" alt="" />
+            <img className='w-16 h-16 ' src="/all image/picture/s-logo.jpg" alt="" />
             <div className="text-2xl font-bold text-blue-800">SHARMIN</div>
         </div>
 

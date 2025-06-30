@@ -12,7 +12,7 @@ const Banner = () => {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        <h2 className="p-4 text-4xl md:text-6xl font-extrabold">Hi, I’m</h2>
+        <h2 className="p-4 text-4xl md:text-6xl font-extrabold mt-6 ">Hi, I’m</h2>
         <h2 className="text-4xl md:text-6xl font-extrabold text-indigo-600">Mst. Sharmin Akter</h2>
         <h3 className="text-3xl font-extrabold text-gray-700">Full Stack Developer</h3>
 
@@ -95,7 +95,7 @@ const Banner = () => {
       >
         <div className="w-96 h-96 rounded-full overflow-hidden shadow-lg">
           <img
-            src="/src/assets/picture/banner.jpg"
+            src="/all image/picture/banner.jpg"
             alt="Mst. Sharmin Akter"
             className="w-full h-full object-cover"
           />

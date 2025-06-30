@@ -58,21 +58,21 @@ const Projects = () => {
             >
               <SwiperSlide>
                 <img
-                  src="/src/assets/Screenshot1.png"
+                  src="/all image/picture/Screenshot1.png"
                   alt="FlatFusion 1"
                   className="w-full h-64 object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/src/assets/Screenshot2.png"
+                  src="/all image/picture/Screenshot2.png"
                   alt="FlatFusion 2"
                   className="w-full h-64 object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/src/assets/Screenshot 3.png"
+                  src="/all image/picture/Screenshot 3.png"
                   alt="FlatFusion 3"
                   className="w-full h-64 object-cover"
                 />
@@ -161,21 +161,21 @@ const Projects = () => {
             >
               <SwiperSlide>
                 <img
-                  src="/src/assets/Screenshot 5.png"
+                  src="/all image/picture/Screenshot 5.png"
                   alt="FlatFusion 1"
                   className="w-full h-64 object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/src/assets/Screenshot 6.png"
+                  src="/all image/picture/Screenshot 6.png"
                   alt="FlatFusion 2"
                   className="w-full h-64 object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/src/assets/Screenshot 7.png"
+                  src="/all image/picture/Screenshot 7.png"
                   alt="FlatFusion 3"
                   className="w-full h-64 object-cover"
                 />
@@ -262,21 +262,21 @@ const Projects = () => {
             >
               <SwiperSlide>
                 <img
-                  src="/src/assets/Screenshot 8.png"
+                  src="/all image/picture/Screenshot 8.png"
                   alt="FlatFusion 1"
                   className="w-full h-64 object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/src/assets/Screenshot 9.png"
+                  src="/all image/picture/Screenshot 9.png"
                   alt="FlatFusion 2"
                   className="w-full h-64 object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/src/assets/Screenshot 10.png"
+                  src="/public/all image/picture/Screenshot 10.png"
                   alt="FlatFusion 3"
                   className="w-full h-64 object-cover"
                 />
