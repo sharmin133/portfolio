@@ -41,7 +41,7 @@ const Navbar = () => {
 ))}
          
          <a
-  href="https://drive.google.com/uc?export=download&id=16-GjlxrxPsluismSQnd86x-THeLbu2ri"
+  href="https://drive.google.com/file/d/132l3z3NWVg9RUXpigAQxYFILmniXGWjP/view?usp=sharing"
   download
   className="ml-4 px-4 py-2 rounded-lg bg-blue-700 text-white hover:bg-blue-800 transition"
 >
@@ -73,7 +73,7 @@ const Navbar = () => {
     offset={-70}
     duration={500}
     onClick={() => setOpen(false)}
-    className="block text-gray-700 hover:text-blue-700 hover:underline transition flex items-center gap-1"
+    className=" text-gray-700 hover:text-blue-700 hover:underline transition flex items-center gap-1"
   >
     {link.icon}
     <span>{link.name}</span>
@@ -81,7 +81,7 @@ const Navbar = () => {
 ))}
           
          <a
-  href="https://drive.google.com/uc?export=download&id=16-GjlxrxPsluismSQnd86x-THeLbu2ri"
+  href="https://drive.google.com/file/d/132l3z3NWVg9RUXpigAQxYFILmniXGWjP/view?usp=sharing"
   download
   onClick={() => setOpen(false)}
   className="block px-4 py-2 text-white bg-blue-700 rounded-md text-center hover:bg-blue-800 transition"

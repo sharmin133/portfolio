@@ -276,7 +276,7 @@ const Projects = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/public/all image/picture/Screenshot 10.png"
+                  src="/all image/picture/Screenshot 10.png"
                   alt="FlatFusion 3"
                   className="w-full h-64 object-cover"
                 />

@@ -29,7 +29,7 @@ const Banner = () => {
             Contact Me
           </a>
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/132l3z3NWVg9RUXpigAQxYFILmniXGWjP/view?usp=sharing"
             download
             className="px-8 py-3 border border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white rounded-md font-semibold transition"
           >
