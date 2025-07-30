@@ -95,7 +95,7 @@ const Banner = () => {
       >
         <div className="w-96 h-96 rounded-full overflow-hidden shadow-lg">
           <img
-            src="/all image/picture/banner.jpg"
+            src=""
             alt="Mst. Sharmin Akter"
             className="w-full h-full object-cover"
           />
