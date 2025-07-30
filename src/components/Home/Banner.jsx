@@ -29,7 +29,7 @@ const Banner = () => {
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/file/d/132l3z3NWVg9RUXpigAQxYFILmniXGWjP/view?usp=sharing"
+            href="https://drive.google.com/file/d/158sTRpyI1fRhGknsIhk3IOJKRo3sTHNp/view?usp=sharing"
             download
             className="px-8 py-3 border border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white rounded-md font-semibold transition"
           >
@@ -95,7 +95,7 @@ const Banner = () => {
       >
         <div className="w-96 h-96 rounded-full overflow-hidden shadow-lg">
           <img
-            src=""
+            src="/all image/picture/banner.jpg"
             alt="Mst. Sharmin Akter"
             className="w-full h-full object-cover"
           />

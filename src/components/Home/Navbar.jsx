@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="w-full fixed top-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className='flex items-center justify-center'>
-            <img className='w-16 h-16 ' src="/all image/picture/s-logo.jpg" alt="" />
+            <img className='w-16 h-16 ' src="/all image/picture/logo-portfolio.png" alt="" />
             <div className="text-2xl font-bold text-blue-800">SHARMIN</div>
         </div>
 
@@ -41,7 +41,7 @@ const Navbar = () => {
 ))}
          
          <a
-  href="https://drive.google.com/file/d/132l3z3NWVg9RUXpigAQxYFILmniXGWjP/view?usp=sharing"
+  href="https://drive.google.com/file/d/158sTRpyI1fRhGknsIhk3IOJKRo3sTHNp/view?usp=sharing"
   download
   className="ml-4 px-4 py-2 rounded-lg bg-blue-700 text-white hover:bg-blue-800 transition"
 >
@@ -81,7 +81,7 @@ const Navbar = () => {
 ))}
           
          <a
-  href="https://drive.google.com/file/d/132l3z3NWVg9RUXpigAQxYFILmniXGWjP/view?usp=sharing"
+  href="https://drive.google.com/file/d/158sTRpyI1fRhGknsIhk3IOJKRo3sTHNp/view?usp=sharing"
   download
   onClick={() => setOpen(false)}
   className="block px-4 py-2 text-white bg-blue-700 rounded-md text-center hover:bg-blue-800 transition"
