@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-16 text-gray-900 w-full max-w-[1400px] mx-auto">
+    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 text-gray-900 w-full max-w-[1400px] mx-auto gap-8">
       {/* Left side - Text content */}
       <motion.div
-        className="order-2 md:order-1 flex-1 flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6"
+        className=" flex-1 md:basis-[80%] flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
@@ -16,9 +16,9 @@ const Banner = () => {
         <h2 className="text-4xl md:text-6xl font-extrabold text-indigo-600">Mst. Sharmin Akter</h2>
         <h3 className="text-3xl font-extrabold text-gray-700">Full Stack Developer</h3>
 
-        <p className="text-xl md:text-2xl max-w-lg">
-          I build fast, scalable, and user-friendly web applications using the MERN stack.
-          My focus is on writing clean code and crafting modern, responsive designs with the latest technologies.
+        <p className="text-xl md:text-2xl ">
+ I am a passionate Full Stack Developer focused on building clean, user-friendly, accessible web applications. I create responsive interfaces that work smoothly. Eager to learn and collaborate, my goal is to grow by delivering quality solutions that benefit users.
+
         </p>
 
         <div className="flex space-x-6 mt-4">
@@ -87,7 +87,7 @@ const Banner = () => {
 
       {/* Right side - Profile image */}
       <motion.div
-        className="order-1 md:order-2 flex-shrink-0 mt-8 md:mt-0 md:ml-20"
+        className="order-1 flex-1 md:basis-[20%] md:order-2 flex-shrink-0 mt-8 md:mt-0 md:ml-20"
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}

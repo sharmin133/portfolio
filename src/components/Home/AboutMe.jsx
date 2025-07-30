@@ -24,16 +24,14 @@ const AboutMe = () => {
         />
 
         <p className="text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
-          I'm <span className="font-semibold text-indigo-600">Mst. Sharmin Akter</span>, I build web applications that are reliable, user-friendly, and designed to scale smoothly as they grow. My background in computer science helps me solve problems by writing clean and simple code using the latest tools.
+          I'm <span className="font-semibold text-indigo-600">Mst. Sharmin Akter</span>, a passionate developer focused on creating reliable, scalable, and user-friendly web applications. My background in computer science helps me solve problems efficiently by writing clean and effective code using modern tools.
+
+
         </p>
 
-           <p className="text-base md:text-lg text-gray-700 mb-6">
-      I focus on writing clean and maintainable code to ensure long-term project success. I’m a quick learner who thrives in team environments, adapts to new challenges easily, and continuously improves through real-world development experiences.
-    </p>
-
-    <p className="text-base md:text-lg text-gray-700">
-    I am a passionate Full Stack Developer focused on creating clean, user-friendly, and accessible web applications. I build responsive interfaces that function smoothly and effectively. Always eager to learn and improve, I collaborate well in teams and look forward to contributing to meaningful projects. My goal is to grow as a developer by delivering high-quality solutions that benefit users.
-    </p>
+        <p className="text-lg md:text-xl leading-relaxed mt-6 max-w-3xl mx-auto">
+          I enjoy taking on real-world projects where I can continuously learn and apply my skills. Writing code that is easy to understand and maintain matters to me because it helps projects succeed in the long term. I’m also passionate about open-source contributions and always looking for ways to grow as a developer.
+        </p>
       </motion.div>
     </section>
   );
