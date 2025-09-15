@@ -8,7 +8,7 @@ import Projects from './Projects';
 
 const Home = () => {
     return (
-        <div className='bg-gray-50'>
+        <div className='bg-gradient-to-r from-white to-yellow-200'>
             <Banner></Banner>
             <AboutMe></AboutMe>
             <SkillsSection></SkillsSection>
