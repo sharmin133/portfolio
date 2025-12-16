@@ -15,7 +15,7 @@ const Banner = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 w-full  mx-auto gap-8  text-gray-900">
       
-      {/* Left Side */}
+    
       <div className="flex-1 md:basis-[80%] flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-6">
         <h2 className="py-4 text-2xl md:text-4xl text-yellow-600 font-semibold mt-6">
           Hi, I’m
@@ -24,7 +24,7 @@ const Banner = () => {
           Mst. Sharmin Akter
         </h2>
 
-        {/* Rotating Title with Animation */}
+    
         <div className="relative min-h-[3rem]">
           <AnimatePresence mode="wait">
             <motion.h3
@@ -45,7 +45,6 @@ const Banner = () => {
 
         </p>
 
-        {/* Buttons */}
         <div className="flex space-x-4 mt-4">
           <a
             href="#contact"
@@ -65,7 +64,6 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Right Side - Profile Image */}
 <div className="order-1 flex-1 md:basis-[20%] md:order-2 flex-shrink-0 mt-8 md:mt-0 md:ml-20">
   <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden shadow-lg mx-auto">
    <img
