@@ -52,9 +52,9 @@ const Education = () => {
   bg-[#120020]/40 backdrop-blur-md
   border border-purple-400/10 hover:border-purple-400/30
   transition duration-300 shadow">
-    <h4 className="text-purple-400 font-semibold mb-3">
+    <h2 className=" text-xl text-purple-400 font-semibold mb-3">
       Key Achievements
-    </h4>
+    </h2>
     <ul className="space-y-2 text-gray-300 text-sm">
       <li>• Successfully completed academic program</li>
       <li>• Published multiple research papers</li>
@@ -67,7 +67,7 @@ const Education = () => {
   bg-[#120020]/40 backdrop-blur-md
   border border-purple-400/10 hover:border-purple-400/30
   transition duration-300 shadow">
-    <h4 className="text-purple-400 font-semibold mb-3">
+    <h4 className="text-xl text-purple-400 font-semibold mb-3">
       Core Focus Areas
     </h4>
     <ul className="space-y-2 text-gray-300 text-sm">

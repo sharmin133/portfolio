@@ -1,146 +1,64 @@
-import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
-import { FaWhatsapp, FaLinkedin, FaGithub, FaMapMarkerAlt } from 'react-icons/fa';
+import React from "react";
 import { motion } from "framer-motion";
+import { FaWhatsapp, FaFacebookMessenger } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-  const [submitted, setSubmitted] = useState(false);
-  const [error, setError] = useState("");
-
-  const handleChange = (e) => {
-    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setError("");
-  const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
-
-    emailjs.send(serviceID, templateID, formData, publicKey)
-      .then(() => {
-        setSubmitted(true);
-        setFormData({ name: "", email: "", message: "" });
-      })
-      .catch((err) => {
-        setError("Oops! Something went wrong. Please try again.");
-        console.error(err);
-      });
-  };
-
   return (
-    <section id='contact' className="py-20 px-6 md:px-16 text-gray-800">
-      <h2 className="text-4xl md:text-5xl font-bold text-yellow-700 mb-3 text-center">
-        Let's Contact
-      </h2>
-      <motion.div
-        initial={{ width: 0 }}
-        whileInView={{ width: "6rem" }}
-        transition={{ duration: 1 }}
-        className="h-1 bg-yellow-600 mx-auto mb-8 rounded-full"
-      />
+    <section className="max-w-6xl mx-auto px-6 py-16 text-gray-200">
 
-      <motion.div
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        viewport={{ once: true }}
-        className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-2 gap-10"
-      >
+      {/* Main Card */}
+      <div>
 
-        {/* Left: Contact Info */}
-        <div className="space-y-12">
-          <div className="space-y-8">
-            <div className="border-2 border-yellow-400 p-4 rounded-xl flex items-center gap-3 hover:shadow-lg transition">
-              <FaWhatsapp className="text-green-500 text-xl" />
-              <div>
-                <p className="font-semibold text-yellow-700">WhatsApp:</p>
-                <a href="https://wa.me/881732341938" target="_blank" rel="noreferrer" className="text-yellow-600 hover:underline">
-                  +8801732341938
-                </a>
-              </div>
-            </div>
+        {/* Quote = Title */}
+        <h2 className="text-4xl md:text-5xl font-bold text-purple-400 leading-relaxed text-center mb-6">
+          Let’s connect and build something amazing together. I’m always excited to explore new ideas and opportunities.
+        </h2>
 
-            <div className="border-2 border-yellow-400 p-4 rounded-xl flex items-center gap-3 hover:shadow-lg transition">
-              <FaLinkedin className="text-blue-700 text-xl" />
-              <div>
-                <p className="font-semibold text-yellow-700">LinkedIn:</p>
-                <a href="https://www.linkedin.com/in/mst-sharmin-akter3740/" target="_blank" rel="noreferrer" className="text-yellow-600 hover:underline">
-                  /mst-sharmin-akter3740
-                </a>
-              </div>
-            </div>
+       
+        {/* Buttons */}
+        <div className="flex flex-wrap justify-center gap-4">
 
-            <div className="border-2 border-yellow-400 p-4 rounded-xl flex items-center gap-3 hover:shadow-lg transition">
-              <FaGithub className="text-gray-800 text-xl" />
-              <div>
-                <p className="font-semibold text-yellow-700">GitHub:</p>
-                <a href="https://github.com/sharmin133" target="_blank" rel="noreferrer" className="text-yellow-600 hover:underline">
-                  github.com/sharmin133
-                </a>
-              </div>
-            </div>
+          {/* Email */}
+          <a
+            href="mailto:your@email.com"
+            className="flex items-center gap-2 px-5 py-2 rounded-xl
+            bg-purple-900/30 border border-purple-500/30
+            hover:bg-purple-800/40 transition"
+          >
+            <MdEmail size={18} className="text-purple-300" />
+            <span className="text-sm text-white">Email Me</span>
+          </a>
 
-            <div className="border-2 border-yellow-400 p-4 rounded-xl flex items-center gap-3 hover:shadow-lg transition">
-              <FaMapMarkerAlt className="text-red-500 text-xl" />
-              <div>
-                <p className="font-semibold text-yellow-700">Location:</p>
-                <p className="text-gray-600">Dhaka, Bangladesh</p>
-              </div>
-            </div>
-          </div>
+          {/* Messenger */}
+          <a
+            href="https://m.me/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-5 py-2 rounded-xl
+            bg-purple-900/30 border border-purple-500/30
+            hover:bg-purple-800/40 transition"
+          >
+            <FaFacebookMessenger size={18} className="text-purple-300" />
+            <span className="text-sm text-white">SMS me</span>
+          </a>
+
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/8801732341938"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-5 py-2 rounded-xl
+            bg-purple-900/30 border border-purple-500/30
+            hover:bg-purple-800/40 transition"
+          >
+            <FaWhatsapp size={18} className="text-purple-300" />
+            <span className="text-sm text-white">DM Me</span>
+          </a>
+
         </div>
 
-        {/* Right: Contact Form */}
-        <div className="border-2 border-yellow-400 p-6 rounded-xl shadow-md bg-gradient-to-t from-gray-100 to-gray-50">
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your full name"
-              required
-              value={formData.name}
-              onChange={handleChange}
-              className="w-full border border-yellow-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-500"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your email address"
-              required
-              value={formData.email}
-              onChange={handleChange}
-              className="w-full border border-yellow-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-500"
-            />
-            <textarea
-              name="message"
-              placeholder="Write your message here"
-              rows="5"
-              required
-              value={formData.message}
-              onChange={handleChange}
-              className="w-full border border-yellow-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-500"
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full bg-gradient-to-r from-yellow-400 to-yellow-900 text-white font-semibold rounded-md py-3 shadow-md hover:from-yellow-800 hover:to-yellow-600 transition"
-            >
-              Send Message
-            </button>
-          </form>
-
-          {submitted && (
-            <p className="mt-6 text-center text-green-600 font-semibold">
-              Thank you for reaching out! I will get back to you soon.
-            </p>
-          )}
-          {error && (
-            <p className="mt-6 text-center text-red-600 font-semibold">{error}</p>
-          )}
-        </div>
-      </motion.div>
+      </div>
     </section>
   );
 };
