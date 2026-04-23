@@ -27,7 +27,7 @@ const Education = () => {
             <h3 className="text-xl md:text-2xl font-semibold text-white">
               BSc in Computer Science and Engineering
             </h3>
-            <p className="text-gray-400">
+            <p className="text-gray-200 text-xl">
               Port City International University
             </p>
           </div>
