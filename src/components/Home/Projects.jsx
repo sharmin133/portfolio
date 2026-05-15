@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { BsArrowRight } from "react-icons/bs";
 import { FaEye } from "react-icons/fa6";
 import { CgEye } from "react-icons/cg";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const containerVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -34,7 +34,7 @@ const projects = [
     title: "RedHope",
     description:
       "RedHope is a blood donation platform that connects patients with compatible donors during emergencies, while allowing volunteers and donors to contribute to life-saving efforts.",
-    image: "https://i.ibb.co.com/R4Y1DdxB/Screenshot-504.png",
+    image: "https://i.ibb.co/R4Y1DdxB/Screenshot-504.png",
     live: "https://redhope-1ec3a.web.app/",
     moreDetails: "#project4",
     techStack: ["React", "Next.js", "Tailwind CSS", "Firebase"],
@@ -44,7 +44,7 @@ const projects = [
     title: "PrimeGo",
     description:
       "A wholesale e-commerce platform that easily connects suppliers and buyers, providing a smooth shopping experience.",
-    image: "https://i.ibb.co.com/9HJXqCkc/Screenshot-514.png",
+    image: "https://i.ibb.co/9HJXqCkc/Screenshot-514.png",
     live: "https://primego-wholesale-website.web.app",
     moreDetails: "#primego",
     techStack: ["React", "MongoDB", "Express", "Node.js"],
