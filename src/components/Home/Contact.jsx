@@ -1,46 +1,36 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaWhatsapp, FaFacebookMessenger } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16 text-gray-200">
+    <section className="max-w-5xl mx-auto px-6 py-16 text-[#D6E6F2]">
 
       {/* Main Card */}
       <div>
 
         {/* Quote = Title */}
-        <h2 className="text-4xl md:text-5xl font-bold text-purple-400 leading-relaxed text-center mb-6">
-          Let’s connect and build something amazing together. I’m always excited to explore new ideas and opportunities.
+        <h2 className="text-4xl md:text-5xl font-bold text-[#4980aa] leading-relaxed text-center mb-10 playfair">
+          Let's connect and build something amazing together. I'm always excited to explore new ideas and opportunities.
         </h2>
 
-       
         {/* Buttons */}
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-5">
 
           {/* Email */}
           <a
             href="mailto:your@email.com"
-            className="flex items-center gap-2 px-5 py-2 rounded-xl
-            bg-purple-900/30 border border-purple-500/30
-            hover:bg-purple-800/40 transition"
+            className="flex items-center gap-3 px-8 py-4 rounded-2xl
+            bg-[rgba(20,42,67,0.55)]
+            border border-[#2D5B8F]/50
+            hover:border-[#7FB3D5]
+            hover:bg-[rgba(20,42,67,0.8)]
+            shadow-[0_4px_24px_rgba(0,0,0,0.3)]
+            transition duration-300 group"
           >
-            <MdEmail size={18} className="text-purple-300" />
-            <span className="text-sm text-white">Email Me</span>
-          </a>
-
-          {/* Messenger */}
-          <a
-            href="https://m.me/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-5 py-2 rounded-xl
-            bg-purple-900/30 border border-purple-500/30
-            hover:bg-purple-800/40 transition"
-          >
-            <FaFacebookMessenger size={18} className="text-purple-300" />
-            <span className="text-sm text-white">SMS me</span>
+            <MdEmail size={22} className="text-[#7FB3D5] group-hover:text-[#D6E6F2] transition duration-300" />
+            <span className="font-bold text-xl text-[#B8D4E3] group-hover:text-[#D6E6F2] playfair transition duration-300">Email Me</span>
           </a>
 
           {/* WhatsApp */}
@@ -48,12 +38,16 @@ const Contact = () => {
             href="https://wa.me/8801732341938"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-5 py-2 rounded-xl
-            bg-purple-900/30 border border-purple-500/30
-            hover:bg-purple-800/40 transition"
+            className="flex items-center gap-3 px-8 py-4 rounded-2xl
+            bg-[rgba(20,42,67,0.55)]
+            border border-[#2D5B8F]/50
+            hover:border-[#7FB3D5]
+            hover:bg-[rgba(20,42,67,0.8)]
+            shadow-[0_4px_24px_rgba(0,0,0,0.3)]
+            transition duration-300 group"
           >
-            <FaWhatsapp size={18} className="text-purple-300" />
-            <span className="text-sm text-white">DM Me</span>
+            <FaWhatsapp size={22} className="text-[#7FB3D5] group-hover:text-[#D6E6F2] transition duration-300" />
+            <span className="font-bold text-xl text-[#B8D4E3] group-hover:text-[#D6E6F2] playfair transition duration-300">DM Me</span>
           </a>
 
         </div>

@@ -5,30 +5,30 @@ import { Outlet } from 'react-router';
 
 const Root = () => {
   return (
-    <div className="flex flex-col h-screen bg-[#0a0010]">
+    <div className="flex flex-col min-h-screen
+      bg-[linear-gradient(180deg,#142A43_0%,#0B1624_15%,#000000_100%)]">
 
       {/* Navbar */}
       <Navbar />
 
       {/* Main Layout */}
-      <div className="flex flex-1 overflow-hidden mt-[72px]">
+      <div className="flex flex-col md:flex-row flex-1 mt-[72px]">
 
-        {/* Left Sidebar */}
-      <div className="w-[320px] min-w-[320px] h-full overflow-y-auto
-bg-gradient-to-b from-[#0f0018] via-[#080010] to-[#030005]">
+        {/* Left Sidebar — top on mobile, sticky left on desktop */}
+        <div className="
+          w-full md:w-[320px] md:min-w-[320px]
+          md:h-[calc(100vh-72px)] md:sticky md:top-[72px]
+          md:overflow-y-auto">
 
-          <div className="flex justify-center items-center h-full">
+          <div className="flex justify-center items-center h-full py-8 md:py-0">
             <Banner />
           </div>
 
         </div>
 
         {/* Right Content */}
-        <div className="flex-1 h-full overflow-y-auto
-bg-gradient-to-b from-[#0f0018] via-[#080010] to-[#030005]">
-
+        <div className="flex-1 min-h-screen overflow-y-auto no-scrollbar">
           <Outlet />
-
         </div>
 
       </div>
