@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <section className="max-w-5xl mx-auto px-6 py-16 text-[#D6E6F2]">
+    <section  id="contact" className="max-w-5xl mx-auto px-6 py-16 text-[#D6E6F2]">
 
       {/* Main Card */}
       <div>

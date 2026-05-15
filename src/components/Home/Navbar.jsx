@@ -16,14 +16,10 @@ const Navbar = () => {
   const scrollLinks = [
     {
       name: "Home",
-      to: "home",
+      to: "about",
       icon: <FaHome className="text-[#7FB3D5]" />,
     },
-    {
-      name: "About",
-      to: "about",
-      icon: <FaUser className="text-[#7FB3D5]" />,
-    },
+   
     {
       name: "Skills",
       to: "skills",
@@ -68,6 +64,7 @@ const Navbar = () => {
               spy
               smooth
               offset={-70}
+               activeClass="text-white"
               duration={500}
               className="cursor-pointer
               text-[#B8D4E3]
@@ -82,7 +79,7 @@ const Navbar = () => {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/..."
+            href="https://drive.google.com/file/d/1Vio-m41_ca454U5Vjz4nRpBNqAqMGM-H/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 px-5 py-2 rounded-xl font-semibold
@@ -125,6 +122,7 @@ const Navbar = () => {
               smooth
               offset={-70}
               duration={500}
+              activeClass="text-white"
               onClick={() => setOpen(false)}
               className="flex items-center gap-3
               text-[#B8D4E3]

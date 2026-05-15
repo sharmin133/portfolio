@@ -118,7 +118,7 @@ const Banner = () => {
 
       {/* Resume Button */}
       <a
-        href="https://drive.google.com/file/d/158sTRpyI1fRhGknsIhk3IOJKRo3sTHNp/view"
+        href="https://drive.google.com/file/d/1Vio-m41_ca454U5Vjz4nRpBNqAqMGM-H/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="block w-full py-3

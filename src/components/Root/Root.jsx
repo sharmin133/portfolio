@@ -5,7 +5,7 @@ import { Outlet } from 'react-router';
 
 const Root = () => {
   return (
-    <div className="flex flex-col min-h-screen
+    <div className="flex flex-col min-h-screen 
       bg-[linear-gradient(180deg,#142A43_0%,#0B1624_15%,#000000_100%)]">
 
       {/* Navbar */}

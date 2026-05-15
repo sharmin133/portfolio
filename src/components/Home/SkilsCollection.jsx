@@ -94,7 +94,7 @@ const SkillCard = ({ category, skills, index }) => (
 
 const SkillsSection = () => {
   return (
-    <section className="max-w-6xl mx-auto px-4 py-16 text-[#D6E6F2] bg-transparent">
+    <section id="skills" className="max-w-6xl mx-auto px-4 py-16 text-[#D6E6F2] bg-transparent">
 
       {/* Title */}
       <h2 className="text-4xl md:text-5xl text-[#D6E6F2] text-center mb-4 tracking-wide elsie">
