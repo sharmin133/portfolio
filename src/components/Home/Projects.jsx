@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router";
+
 import { FiExternalLink } from "react-icons/fi";
 import { BsArrowRight } from "react-icons/bs";
 import { FaEye } from "react-icons/fa6";
 import { CgEye } from "react-icons/cg";
+import { Link } from "react-router-dom";
 
 const containerVariants = {
   hidden: { opacity: 0, y: 50 },
