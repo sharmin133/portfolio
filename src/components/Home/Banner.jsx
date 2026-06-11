@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  FaWhatsapp,
-  FaGithub,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaWhatsapp, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Banner = () => {
   const titles = [

@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 
 const Education = () => {
   return (
-    <section id="education" className="max-w-6xl mx-auto px-4 py-16 text-[#D6E6F2] bg-transparent">
-
+    <section
+      id="education"
+      className="max-w-6xl mx-auto px-4 py-16 text-[#D6E6F2] bg-transparent"
+    >
       {/* Title */}
       <h2 className="text-4xl md:text-5xl text-[#D6E6F2] text-center mb-4 tracking-wide elsie">
         Education
@@ -33,10 +35,8 @@ const Education = () => {
         shadow-[0_8px_48px_rgba(0,0,0,0.4)]
         backdrop-blur-sm"
       >
-
         {/* Top Section */}
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
-
           <div className="flex-1">
             <h3 className="text-xl md:text-2xl font-semibold text-[#e3ebf0] playfair leading-snug">
               BSc in Computer Science and Engineering
@@ -47,13 +47,18 @@ const Education = () => {
           </div>
 
           {/* GPA */}
-          <div className="self-start sm:self-center px-4 py-2 sm:px-5 sm:py-3 rounded-xl
+          <div
+            className="self-start sm:self-center px-4 py-2 sm:px-5 sm:py-3 rounded-xl
           bg-[rgba(20,42,67,0.4)]
-          border border-[#2D5B8F]/40 whitespace-nowrap">
-            <span className="text-lg sm:text-2xl font-bold text-[#e3ebf0]">3.77</span>
-            <span className="text-lg sm:text-2xl text-[#7FB3D5] ml-2">/ 4.00</span>
+          border border-[#2D5B8F]/40 whitespace-nowrap"
+          >
+            <span className="text-lg sm:text-2xl font-bold text-[#e3ebf0]">
+              3.77
+            </span>
+            <span className="text-lg sm:text-2xl text-[#7FB3D5] ml-2">
+              / 4.00
+            </span>
           </div>
-
         </div>
 
         {/* Divider */}
@@ -61,27 +66,33 @@ const Education = () => {
 
         {/* Bottom Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
-
           {/* Achievements */}
-          <div className="p-4 rounded-xl
+          <div
+            className="p-4 rounded-xl
           bg-[rgba(20,42,67,0.35)]
           border border-[#2D5B8F]/20 hover:border-[#2D5B8F]/50
-          transition duration-300">
+          transition duration-300"
+          >
             <h2 className="text-base sm:text-xl text-[#7FB3D5] font-semibold mb-3">
               Key Achievements
             </h2>
             <ul className="space-y-2 text-[#B8D4E3] text-sm">
-              <li>• Achieved consistent academic performance throughout the program</li>
+              <li>
+                • Achieved consistent academic performance throughout the
+                program
+              </li>
               <li>• Published multiple research papers</li>
               <li>• Explored in AI & Machine Learning</li>
             </ul>
           </div>
 
           {/* Focus */}
-          <div className="p-4 rounded-xl
+          <div
+            className="p-4 rounded-xl
           bg-[rgba(20,42,67,0.35)]
           border border-[#2D5B8F]/20 hover:border-[#2D5B8F]/50
-          transition duration-300">
+          transition duration-300"
+          >
             <h4 className="text-base sm:text-xl text-[#7FB3D5] font-semibold mb-3">
               Core Focus Areas
             </h4>
@@ -92,7 +103,6 @@ const Education = () => {
               <li>• Artificial Intelligence</li>
             </ul>
           </div>
-
         </div>
       </motion.div>
     </section>

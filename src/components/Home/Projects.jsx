@@ -42,7 +42,7 @@ const projects = [
 
     live: "https://redhope-1ec3a.web.app/",
 
-    github: "https://github.com/yourusername/redhope",
+    github: "https://github.com/sharmin133/blood-donation-client-site-code.git",
 
     techStack: ["React", "Next.js", "Tailwind CSS", "Firebase"],
   },
@@ -57,7 +57,8 @@ const projects = [
 
     live: "https://primego-wholesale-website.web.app",
 
-    github: "https://github.com/yourusername/primego",
+    github:
+      "https://github.com/sharmin133/Wholesale-Product-Website-Client.git",
 
     techStack: ["React", "MongoDB", "Express", "Node.js"],
   },
@@ -72,7 +73,7 @@ const projects = [
 
     live: "https://roommate-finder-website.web.app/",
 
-    github: "https://github.com/yourusername/flatfusion",
+    github: "https://github.com/sharmin133/Roommate-Finder-website-Client.git",
 
     techStack: ["React", "Firebase", "Tailwind CSS"],
   },
@@ -87,7 +88,7 @@ const projects = [
 
     live: "https://assignment-9-f82df.web.app",
 
-    github: "https://github.com/yourusername/appnest",
+    github: "https://github.com/sharmin133/AppStore-Website.git",
 
     techStack: ["React", "JWT", "MongoDB"],
   },

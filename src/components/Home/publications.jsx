@@ -4,19 +4,22 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const publications = [
   {
-    title: "Evaluating the Performance of Machine Learning Models in Handwritten Signature Verification",
+    title:
+      "Evaluating the Performance of Machine Learning Models in Handwritten Signature Verification",
     date: "2025",
     publisher: "IEEE",
     link: "https://ieeexplore.ieee.org/document/10673648",
   },
   {
-    title: "Evaluating Machine Learning Methods for Bangla Text Emotion Analysis",
+    title:
+      "Evaluating Machine Learning Methods for Bangla Text Emotion Analysis",
     date: "2025",
     publisher: "IEEE",
     link: "https://ieeexplore.ieee.org/document/10673544",
   },
   {
-    title: "Predicting Credit Card Approvals with Machine Learning and Deep Learning Techniques",
+    title:
+      "Predicting Credit Card Approvals with Machine Learning and Deep Learning Techniques",
     date: "2025",
     publisher: "IEEE",
     link: "https://ieeexplore.ieee.org/document/11013451",
@@ -26,7 +29,6 @@ const publications = [
 const Publications = () => {
   return (
     <section className="max-w-6xl mx-auto px-6 py-16 text-[#D6E6F2] bg-transparent">
-
       {/* Title */}
       <h2 className="text-4xl md:text-5xl text-[#D6E6F2] text-center mb-4 tracking-wide elsie">
         Publications
@@ -66,9 +68,11 @@ const Publications = () => {
 
             {/* Meta */}
             <div className="flex items-center gap-3 mt-3 text-[#B8D4E3] playfair">
-              <span className="px-4 py-1 rounded-full text-lg
+              <span
+                className="px-4 py-1 rounded-full text-lg
               bg-[rgba(20,42,67,0.55)]
-              border border-[#2D5B8F]/40 text-[#7FB3D5]">
+              border border-[#2D5B8F]/40 text-[#7FB3D5]"
+              >
                 {pub.publisher}
               </span>
               <span className="text-lg">{pub.date}</span>
