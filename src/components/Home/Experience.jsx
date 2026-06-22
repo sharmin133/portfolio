@@ -92,7 +92,7 @@ const Experience = () => {
       role: "Frontend Developer",
       company: "Zettabyte Technology Inc.",
       location: "Dhaka, Bangladesh",
-      duration: "September 2025 – Present",
+      duration: "June 2025 – June 2026",
       type: "Onsite",
       responsibilities: [
         "Developed modern and user-friendly interfaces using React and Next.js",
