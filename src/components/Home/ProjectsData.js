@@ -28,7 +28,6 @@ const projects = [
     "JWT",
     "Firebase",
     "Stripe",
-    "EmailJS",
   ],
 
   overview:
@@ -51,7 +50,6 @@ const projects = [
     "JWT Authentication",
     "Firebase",
     "Stripe",
-    "EmailJS",
   ],
 
   challengesFaced:[
@@ -111,7 +109,7 @@ const projects = [
     "Node.js",
     "Express.js",
     "MongoDB",
-    "JWT Authentication",
+    "JWT Auth",
     "Firebase",
     "DaisyUI",
   ],
@@ -182,17 +180,17 @@ const projects = [
     "React",
     "TypeScript",
     "Redux Toolkit",
-    "TanStack React Query",
+    "TanStack Query",
     "Tailwind CSS",
     "Node.js",
     "Express.js",
     "MongoDB",
     "Mongoose",
-    "JWT Authentication",
+    "JWT Auth",
     "Multer",
     "Cloudinary",
     "Socket.io",
-    "Zod Validation",
+    "Zod",
   ],
 
   challengesFaced:
@@ -249,7 +247,7 @@ const projects = [
     "Node.js",
     "Express.js",
     "MongoDB",
-    "Firebase Authentication",
+    "Firebase Auth",
     "DaisyUI",
   ],
 
