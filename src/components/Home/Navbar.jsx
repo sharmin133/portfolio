@@ -69,7 +69,7 @@ const Navbar = () => {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1Vio-m41_ca454U5Vjz4nRpBNqAqMGM-H/view?usp=sharing"
+            href="https://drive.google.com/file/d/1i0VKKzAfBMps3VfV7pxsAUanxq100KqR/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 px-5 py-2 rounded-xl font-semibold
@@ -140,7 +140,7 @@ const Navbar = () => {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/..."
+            href="https://drive.google.com/file/d/1i0VKKzAfBMps3VfV7pxsAUanxq100KqR/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}

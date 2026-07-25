@@ -38,7 +38,8 @@ const projects = [
     description:
       "RedHope is a blood donation platform that connects patients with compatible donors during emergencies, while allowing volunteers and donors to contribute to life-saving efforts.",
 
-    image: "https://i.ibb.co/R4Y1DdxB/Screenshot-504.png",
+   
+    image: "/all image/picture/redhope.webp",
 
     live: "https://redhope-1ec3a.web.app/",
 
@@ -53,7 +54,8 @@ const projects = [
     description:
       "A wholesale e-commerce platform that easily connects suppliers and buyers, providing a smooth shopping experience.",
 
-    image: "https://i.ibb.co/9HJXqCkc/Screenshot-514.png",
+   
+    image: "/all image/picture/wholesale.webp",
 
     live: "https://primego-wholesale-website.web.app",
 
@@ -62,6 +64,21 @@ const projects = [
 
     techStack: ["React", "MongoDB", "Express", "Node.js"],
   },
+  
+  {
+    title: "ERP System",
+
+    description:
+     "A comprehensive ERP platform for managing inventory, sales, customers, and business operations from a centralized dashboard.",
+    
+     image: "/all image/picture/erp.webp",
+
+    live: "https://erp-frontend-murex-three.vercel.app/",
+
+    github: "https://github.com/sharmin133",
+
+    techStack: ["React", "Node.js", "MongoDB", "Express"],
+  },
 
   {
     title: "FlatFusion",
@@ -69,7 +86,7 @@ const projects = [
     description:
       "FlatFusion is a platform for locating compatible roommates by connecting people based on their needs.",
 
-    image: "/all image/picture/Screenshot 5.png",
+    image: "/all image/picture/flatfusion.webp",
 
     live: "https://roommate-finder-website.web.app/",
 
@@ -78,19 +95,34 @@ const projects = [
     techStack: ["React", "Firebase", "Tailwind CSS"],
   },
 
+
   {
-    title: "AppNest",
+    title: "Clin Technologies",
 
     description:
-      "A modern web platform acting as an app store, allowing users to explore and filter applications effortlessly.",
+      "An AI-powered healthcare simple landing page featuring HIPAA-compliant clinical documentation and seamless EMR integration.",
 
-    image: "/all image/picture/Screenshot 8.png",
+    image: "/all image/picture/healthcare.webp",
 
-    live: "https://assignment-9-f82df.web.app",
+    live: "https://bespoke-crepe-2e675b.netlify.app/login",
 
-    github: "https://github.com/sharmin133/AppStore-Website.git",
+    github: "https://github.com/sharmin133",
 
-    techStack: ["React", "JWT", "MongoDB"],
+    techStack: ["React", "Tailwind CSS", "Framer Motion"],
+  },
+
+  {
+    title: "Software Chamber",
+
+    description:
+       "A modern software agency simple landing page showcasing development services, company achievements, and expertise.",
+    image: "/all image/picture/software.webp",
+
+    live: "https://software-chamber-nu.vercel.app/",
+
+    github: "https://github.com/sharmin133",
+
+    techStack: ["React", "Tailwind CSS", "Framer Motion"],
   },
 ];
 
