@@ -5,7 +5,7 @@ const projects = [
   title: "RedHope",
 
   description:
-    "A full-stack blood donation platform that connects patients with verified donors, enabling efficient blood request management, volunteer coordination, and secure fund donations.",
+    "A full-stack blood donation platform that connects patients with verified donors, enabling blood request management, volunteer coordination, and secure fund donations.",
 
   image: "/all image/picture/redhope.webp",
 
