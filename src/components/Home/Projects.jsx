@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FiExternalLink, FiGithub } from "react-icons/fi";
+import { FiExternalLink, FiGithub, FiArrowRight } from "react-icons/fi";
+import { Link } from "react-router";
+import projects from "./projectsData";
 
 const containerVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -30,101 +32,6 @@ const cardVariants = {
     },
   },
 };
-
-const projects = [
-  {
-    title: "RedHope",
-
-    description:
-      "RedHope is a blood donation platform that connects patients with compatible donors during emergencies, while allowing volunteers and donors to contribute to life-saving efforts.",
-
-   
-    image: "/all image/picture/redhope.webp",
-
-    live: "https://redhope-1ec3a.web.app/",
-
-    github: "https://github.com/sharmin133/blood-donation-client-site-code.git",
-
-    techStack: ["React", "Next.js", "Tailwind CSS", "Firebase"],
-  },
-
-  {
-    title: "PrimeGo",
-
-    description:
-      "A wholesale e-commerce platform that easily connects suppliers and buyers, providing a smooth shopping experience.",
-
-   
-    image: "/all image/picture/wholesale.webp",
-
-    live: "https://primego-wholesale-website.web.app",
-
-    github:
-      "https://github.com/sharmin133/Wholesale-Product-Website-Client.git",
-
-    techStack: ["React", "MongoDB", "Express", "Node.js"],
-  },
-  
-  {
-    title: "ERP System",
-
-    description:
-     "A comprehensive ERP platform for managing inventory, sales, customers, and business operations from a centralized dashboard.",
-    
-     image: "/all image/picture/erp.webp",
-
-    live: "https://erp-frontend-murex-three.vercel.app/",
-
-    github: "https://github.com/sharmin133",
-
-    techStack: ["React", "Node.js", "MongoDB", "Express"],
-  },
-
-  {
-    title: "FlatFusion",
-
-    description:
-      "FlatFusion is a platform for locating compatible roommates by connecting people based on their needs.",
-
-    image: "/all image/picture/flatfusion.webp",
-
-    live: "https://roommate-finder-website.web.app/",
-
-    github: "https://github.com/sharmin133/Roommate-Finder-website-Client.git",
-
-    techStack: ["React", "Firebase", "Tailwind CSS"],
-  },
-
-
-  {
-    title: "Clin Technologies",
-
-    description:
-      "An AI-powered healthcare simple landing page featuring HIPAA-compliant clinical documentation and seamless EMR integration.",
-
-    image: "/all image/picture/healthcare.webp",
-
-    live: "https://bespoke-crepe-2e675b.netlify.app/login",
-
-    github: "https://github.com/sharmin133",
-
-    techStack: ["React", "Tailwind CSS", "Framer Motion"],
-  },
-
-  {
-    title: "Software Chamber",
-
-    description:
-       "A modern software agency simple landing page showcasing development services, company achievements, and expertise.",
-    image: "/all image/picture/software.webp",
-
-    live: "https://software-chamber-nu.vercel.app/",
-
-    github: "https://github.com/sharmin133",
-
-    techStack: ["React", "Tailwind CSS", "Framer Motion"],
-  },
-];
 
 const Projects = () => {
   return (
@@ -164,9 +71,9 @@ const Projects = () => {
           viewport={{ once: true }}
           className="grid lg:grid-cols-2 gap-8"
         >
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <motion.div
-              key={index}
+              key={project.id}
               variants={cardVariants}
               className="
               rounded-2xl overflow-hidden
@@ -277,26 +184,26 @@ const Projects = () => {
                     Live Site
                   </a>
 
-                  {/* Github */}
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
+
+                  {/* See More */}
+                  <Link
+                    to={`/projects/${project.id}`}
                     className="
                     px-5 py-3 rounded-xl
                     text-base font-medium
-                    border border-[#2D5B8F]/30
+                    border border-[#4F7BA7]/40
                     text-[#D6E6F2]
-                    hover:border-[#4F7BA7]/50
-                    hover:bg-[rgba(20,42,67,0.45)]
+                    hover:border-[#4F7BA7]/70
+                    hover:bg-[rgba(79,123,167,0.15)]
                     transition duration-300
                     flex items-center gap-2
                     playfair
+                    ml-auto
                   "
                   >
-                    <FiGithub size={18} />
-                    Github
-                  </a>
+                    See Details
+                    <FiArrowRight size={18} />
+                  </Link>
                 </div>
               </div>
             </motion.div>

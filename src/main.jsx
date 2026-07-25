@@ -8,6 +8,7 @@ import {
 } from "react-router";
 import Root from './components/Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
+import ProjectDetails from './components/Home/ProjectDetails.jsx';
 
 
 
@@ -20,8 +21,10 @@ const router = createBrowserRouter([
         index:true,element:<Home></Home>
       },
 
-      
-    
+      {
+        path:"projects/:id",element:<ProjectDetails></ProjectDetails>
+      },
+
      
     ]
   },
