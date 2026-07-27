@@ -12,13 +12,13 @@ const Home = () => {
   return (
     <div >
       <AboutMe />
-       <Education />
+      <Education />
       <SkillsSection />
-      <Experience/>
+      <Experience />
       <Projects />
-      <Publications/>
+      <Publications />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 };
