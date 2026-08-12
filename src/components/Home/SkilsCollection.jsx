@@ -62,6 +62,8 @@ const skillCategories = [
       },
     ],
   },
+
+
   {
     category: "Database & Tools",
     skills: [
@@ -98,7 +100,7 @@ const SkillCard = ({ category, skills, index }) => (
       {category}
     </h3>
 
-    <div className="flex flex-wrap justify-start gap-4">
+    <div className="flex flex-wrap justify-start gap-3">
       {skills.map(({ name, icon, color }) => (
         <motion.div
           key={name}
