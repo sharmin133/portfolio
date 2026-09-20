@@ -89,10 +89,10 @@ const ExperienceCard = ({
 const Experience = () => {
   const experienceData = [
     {
-      role: "Frontend Developer",
-      company: "Zettabyte Technology Inc.",
+      role: "Jr. Software Developer",
+      company: "Zettabyte Technology Incorporation",
       location: "Dhaka, Bangladesh",
-      duration: "June 2025 – June 2026",
+      duration: "June 2025 – July 2026",
       type: "Onsite",
       responsibilities: [
         "Developed modern and user-friendly interfaces using React and Next.js",
